@@ -1,0 +1,54 @@
+/* Write your code here */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.review-container {
+  background-color: #cbf0f7;
+  background-size: cover;
+  background-position: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.review-heading {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #111;
+  text-align: center;
+}
+.card-wrappers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.review-card {
+  background-color: #fff;
+  background-size: cover;
+  padding: 40px;
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: aliceblue;
+  width: 400px;
+}
+ul {
+  list-style: none;
+}
+.image {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -50px;
+  margin-right: -50px;
+}
+.Img {
+  width: 40px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 50%;
+}
+.review-para {
+  font-size: 14px;
+  font-weight: 500;
+  color: #030c69;
+}
